@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void processData() {
-    int* data = (int*)malloc(10 * sizeof(int)); // 动态分配内存
+    int* data = (int*)malloc(10 * sizeof(int)); // 动态分配内存bj 
     if (data == NULL) {
         fprintf(stderr, "Memory allocation failed\n");
         return;
