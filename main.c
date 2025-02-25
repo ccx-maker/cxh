@@ -33,11 +33,11 @@ int main() {
 
     // 通过pA1调用函数
     dumb(pA1);
-    set(pA1, 10);
+    set(pA1, 20);
     printf("%d\n", get(pA1));
 
     dumb(pA2);
-    set(pA2, 20);
+    set(pA2, 40);
     printf("%d\n", get(pA2)); 
 
    
